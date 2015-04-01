@@ -10,7 +10,6 @@ var path = require('path'),
 
 
 if (process.env.GHOST_USE_HTTPS) {
-    production.forceAdminSSL = true;
     production.urlSSL = 'https://' + domain;
 }
 
